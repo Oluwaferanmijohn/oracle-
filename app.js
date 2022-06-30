@@ -23,3 +23,9 @@ $(document).ready(function() {
         } // End if
     });
 });
+
+// for subscribe button
+function subscribe() {
+    alert(`thanks for subscribing.`)
+    
+}
