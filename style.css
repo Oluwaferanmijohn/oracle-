@@ -446,14 +446,16 @@ body {
     margin-top: -1.2rem;
 }
 
-.form-container a {
-    font-size: 1.3rem;
+.form-container {
+    font-size: 3.3rem;
+    text-align: center;
 }
 
 #footer h2 {
     text-align: center;
-    font-size: 1.8rem;
-    padding: 2.6rem;
+    text-transform: capitalize;
+    font-size: 1.1rem !important;
+    padding: 1rem;
     font-weight: 500;
     color: #fff;
     background: rgb(65, 65, 65);

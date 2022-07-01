@@ -27,5 +27,5 @@ $(document).ready(function() {
 // for subscribe button
 function subscribe() {
     alert(`thanks for subscribing.`)
-    
+
 }
