@@ -1,0 +1,81 @@
+@media (max-width: 768px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: blue;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+    }
+    header {
+        align-items: center;
+    }
+    h2 {
+        text-transform: capitalize;
+        align-items: center;
+        text-align: center;
+        margin: 2em;
+    }
+    .Upload {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .input {
+        align-items: center;
+        text-align: center;
+    }
+    .input input {
+        padding: 0.6em;
+        margin: 1em;
+    }
+    .profile-pic {
+        align-items: center;
+        overflow: hidden;
+    }
+    .profile-pic img {
+        width: 10em;
+        height: 10em;
+        border-radius: 50%;
+    }
+    .img-upload {
+        text-align: center;
+        margin-top: 1em;
+    }
+    .img-upload div {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .content {
+        align-items: center;
+    }
+    .content h4 {
+        text-align: center;
+        align-items: center;
+    }
+    #content {
+        padding: 0.5em;
+        text-align: left;
+        align-items: center;
+    }
+    .note {
+        align-items: center;
+        text-align: center;
+    }
+    .post-btn {
+        margin-top: 1em;
+    }
+    .post-btn {
+        padding: 0.5em;
+    }
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 1em;
+    }
+}
