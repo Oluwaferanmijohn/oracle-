@@ -51,7 +51,7 @@ function generateRandomNumber() {
     const el = quotes[count];
     quotesDisplay.innerHTML = `<div>
                 <h2> ${el.author}</h2>
-                <p>- ${el.quote}</p>
+                <p>${el.quote}</p>
             </div>`
     count = count < quotes.length - 1 ? count + 1 : 0
 }
