@@ -178,6 +178,8 @@ body {
 
 .about-text {
     flex: 1 1 400px;
+    text-transform: capitalize;
+    text-align: center;
     padding: 30px;
     margin: auto;
     transform: translate(-150%);
