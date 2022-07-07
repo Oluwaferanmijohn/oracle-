@@ -206,6 +206,11 @@ body {
     padding: 5rem 0 10rem 0;
 }
 
+#book h2 {
+    text-align: center;
+    margin: 1em;
+}
+
 #food h2 {
     text-align: center;
     font-size: 2.5rem;
@@ -227,6 +232,12 @@ body {
     max-height: 300px;
     object-fit: cover;
     object-position: center;
+}
+
+.story-btn {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-container {
@@ -311,6 +322,8 @@ body {
 .food-menu-item {
     display: flex;
     flex: 1 1 600px;
+    align-items: center;
+    text-align: center;
     justify-content: space-evenly;
     margin-bottom: 3rem;
 }
