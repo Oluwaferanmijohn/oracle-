@@ -40,9 +40,7 @@ let localquotes = [
 
     {
         quote: "welcome to oracle novel. use the next story to read all uploaded stories on this website ",
-        author: "oracle",
-        price: 2000,
-
+        author: "oracle"
     }
 ];
 let quotes = JSON.parse(localStorage.getItem('quotes'))
