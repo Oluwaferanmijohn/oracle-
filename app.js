@@ -40,7 +40,9 @@ let localquotes = [
 
     {
         quote: "welcome to oracle novel. use the next story to read all uploaded stories on this website ",
-        author: "oracle"
+        author: "oracle",
+        price: " for every story, there is a price in ",
+
     }
 ];
 let quotes = JSON.parse(localStorage.getItem('quotes'))
@@ -55,8 +57,9 @@ function generateRandomNumber() {
     quotesDisplay.innerHTML = `<div>
                 <h2> ${el.author}</h2>
                 <p>${el.quote}</p>
-                 <p class="price">price:<i class="color-c">${el.price}naira</i></p>
-            </div>`
+                 <p class="price">price: <i class="color-c">${el.price} naira</i></p>
+            </div>
+            `
     count = count < quotes.length - 1 ? count + 1 : 0
 }
 generateRandomNumber()
