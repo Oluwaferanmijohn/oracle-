@@ -68,6 +68,24 @@ body {
     z-index: 12;
 }
 
+.price {
+    margin-bottom: 3em;
+}
+
+.payment-link {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.color-c {
+    color: red;
+}
+
+.color-b {
+    color: black !important;
+}
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -257,6 +275,19 @@ body {
     z-index: 2;
     text-align: center;
     transition: all 0.3s ease-in-out 0.1s;
+}
+
+.payment {
+    text-decoration: none;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    text-transform: capitalize;
+}
+
+a :hover {
+    color: red;
 }
 
 .img-content h3 {
