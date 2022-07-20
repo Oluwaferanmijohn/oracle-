@@ -41,7 +41,8 @@ let localquotes = [
     {
         quote: "welcome to oracle novel. use the next story to read all uploaded stories on this website ",
         author: "oracle",
-        price: " for every story, there is a price in ",
+        price: " ",
+        link: "https://google.com"
 
     }
 ];
@@ -57,7 +58,9 @@ function generateRandomNumber() {
     quotesDisplay.innerHTML = `<div>
                 <h2> ${el.author}</h2>
                 <p>${el.quote}</p>
+                <h5>To Read More </h5>
                  <p class="price">price: <i class="color-c">${el.price} naira</i></p>
+                 
             </div>
             `
     count = count < quotes.length - 1 ? count + 1 : 0
@@ -65,6 +68,12 @@ function generateRandomNumber() {
 generateRandomNumber()
 
 function paymentLink() {
-    window.location.href = linkInput.value
+    let index = quotes[count - 1]
+    console.log(index.link);
+    let anchor = document.createElement("a")
+    anchor.href = index.link
+    anchor.target = "_blank"
+    anchor.click()
+    location.replace(index.link)
+
 }
-paymentLink()

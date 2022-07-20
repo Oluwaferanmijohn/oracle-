@@ -16,4 +16,5 @@ function addQuote() {
     linkInput.value = ''
 
     localStorage.setItem('quotes', JSON.stringify(quotes))
+    console.log(quotes);
 }
